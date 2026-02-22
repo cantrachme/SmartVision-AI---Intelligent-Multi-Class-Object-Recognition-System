@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+env/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Logs & temp
+*.log
+
+# Large model outputs
+smartvision_yolo/*.png
+smartvision_yolo/*.jpg
+smartvision_yolo/*.txt
+smartvision_yolo/*.csv
+
+# Optional datasets
+smartvision_dataset/
+
+# HuggingFace cache
+.cache/
