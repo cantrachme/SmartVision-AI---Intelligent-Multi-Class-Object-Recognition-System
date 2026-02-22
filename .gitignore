@@ -29,3 +29,9 @@ smartvision_dataset/
 
 # HuggingFace cache
 .cache/
+
+# Ignore trained model weights
+Models/*.h5
+Models/*.keras
+Models/*.pt
+Models/*.pth
